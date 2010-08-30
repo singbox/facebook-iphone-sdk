@@ -29,6 +29,7 @@ static NSString* kStreamURL = @"http://www.facebook.com/connect/prompt_feed.php"
 @synthesize attachment        = _attachment,
 		    actionLinks       = _actionLinks,
             targetId          = _targetId,
+            message           = _message,
             userMessagePrompt = _userMessagePrompt;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -69,6 +70,7 @@ static NSString* kStreamURL = @"http://www.facebook.com/connect/prompt_feed.php"
 								_actionLinks,         @"action_links",
 								_targetId,            @"target_id",
 								_userMessagePrompt,   @"user_message_prompt",
+								_message,             @"message",
 								nil];
 	
 	[self loadURL:kStreamURL method:@"POST" get:getParams post:postParams];

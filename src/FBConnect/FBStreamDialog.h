@@ -21,6 +21,7 @@
 	NSString* _actionLinks;
 	NSString* _targetId;
 	NSString* _userMessagePrompt;
+	NSString* _message;
 }
 
 /**
@@ -58,5 +59,12 @@
  * For example, "What's on your mind?"
  */
 @property(nonatomic,copy) NSString* userMessagePrompt;
+
+/**
+ * Default message to use for wall post body.  The user may change the contents of
+ * this message before submitting the form.
+ * Added by nik@singbox.com
+ */
+@property(nonatomic,copy) NSString* message;
 
 @end
