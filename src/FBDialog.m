@@ -33,7 +33,7 @@ static CGFloat kTransitionDuration = 0.3;
 static CGFloat kTitleMarginX = 8;
 static CGFloat kTitleMarginY = 4;
 static CGFloat kPadding = 10;
-static CGFloat kBorderWidth = 10;
+static CGFloat kBorderWidth = 0;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
